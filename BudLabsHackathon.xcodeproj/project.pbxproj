@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1FF84711BB64A4F004CFD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF84701BB64A4F004CFD10 /* main.m */; };
+		E1FF84741BB64A4F004CFD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF84731BB64A4F004CFD10 /* AppDelegate.m */; };
+		E1FF84771BB64A4F004CFD10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF84761BB64A4F004CFD10 /* ViewController.m */; };
+		E1FF847A1BB64A4F004CFD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FF84781BB64A4F004CFD10 /* Main.storyboard */; };
+		E1FF847C1BB64A4F004CFD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FF847B1BB64A4F004CFD10 /* Assets.xcassets */; };
+		E1FF847F1BB64A4F004CFD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FF847D1BB64A4F004CFD10 /* LaunchScreen.storyboard */; };
+		E1FF848A1BB64A4F004CFD10 /* BudLabsHackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF84891BB64A4F004CFD10 /* BudLabsHackathonTests.m */; };
+		E1FF84951BB64A4F004CFD10 /* BudLabsHackathonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF84941BB64A4F004CFD10 /* BudLabsHackathonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1FF84861BB64A4F004CFD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FF84641BB64A4F004CFD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FF846B1BB64A4F004CFD10;
+			remoteInfo = BudLabsHackathon;
+		};
+		E1FF84911BB64A4F004CFD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FF84641BB64A4F004CFD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FF846B1BB64A4F004CFD10;
+			remoteInfo = BudLabsHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1FF846C1BB64A4F004CFD10 /* BudLabsHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudLabsHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF84701BB64A4F004CFD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1FF84721BB64A4F004CFD10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1FF84731BB64A4F004CFD10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1FF84751BB64A4F004CFD10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1FF84761BB64A4F004CFD10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1FF84791BB64A4F004CFD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FF847B1BB64A4F004CFD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FF847E1BB64A4F004CFD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FF84801BB64A4F004CFD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FF84851BB64A4F004CFD10 /* BudLabsHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudLabsHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF84891BB64A4F004CFD10 /* BudLabsHackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudLabsHackathonTests.m; sourceTree = "<group>"; };
+		E1FF848B1BB64A4F004CFD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FF84901BB64A4F004CFD10 /* BudLabsHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudLabsHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF84941BB64A4F004CFD10 /* BudLabsHackathonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudLabsHackathonUITests.m; sourceTree = "<group>"; };
+		E1FF84961BB64A4F004CFD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FF84691BB64A4F004CFD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF84821BB64A4F004CFD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF848D1BB64A4F004CFD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1FF84631BB64A4F004CFD10 = {
+			isa = PBXGroup;
+			children = (
+				E1FF846E1BB64A4F004CFD10 /* BudLabsHackathon */,
+				E1FF84881BB64A4F004CFD10 /* BudLabsHackathonTests */,
+				E1FF84931BB64A4F004CFD10 /* BudLabsHackathonUITests */,
+				E1FF846D1BB64A4F004CFD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FF846D1BB64A4F004CFD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF846C1BB64A4F004CFD10 /* BudLabsHackathon.app */,
+				E1FF84851BB64A4F004CFD10 /* BudLabsHackathonTests.xctest */,
+				E1FF84901BB64A4F004CFD10 /* BudLabsHackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FF846E1BB64A4F004CFD10 /* BudLabsHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF84721BB64A4F004CFD10 /* AppDelegate.h */,
+				E1FF84731BB64A4F004CFD10 /* AppDelegate.m */,
+				E1FF84751BB64A4F004CFD10 /* ViewController.h */,
+				E1FF84761BB64A4F004CFD10 /* ViewController.m */,
+				E1FF84781BB64A4F004CFD10 /* Main.storyboard */,
+				E1FF847B1BB64A4F004CFD10 /* Assets.xcassets */,
+				E1FF847D1BB64A4F004CFD10 /* LaunchScreen.storyboard */,
+				E1FF84801BB64A4F004CFD10 /* Info.plist */,
+				E1FF846F1BB64A4F004CFD10 /* Supporting Files */,
+			);
+			path = BudLabsHackathon;
+			sourceTree = "<group>";
+		};
+		E1FF846F1BB64A4F004CFD10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF84701BB64A4F004CFD10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1FF84881BB64A4F004CFD10 /* BudLabsHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF84891BB64A4F004CFD10 /* BudLabsHackathonTests.m */,
+				E1FF848B1BB64A4F004CFD10 /* Info.plist */,
+			);
+			path = BudLabsHackathonTests;
+			sourceTree = "<group>";
+		};
+		E1FF84931BB64A4F004CFD10 /* BudLabsHackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF84941BB64A4F004CFD10 /* BudLabsHackathonUITests.m */,
+				E1FF84961BB64A4F004CFD10 /* Info.plist */,
+			);
+			path = BudLabsHackathonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FF846B1BB64A4F004CFD10 /* BudLabsHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FF84991BB64A4F004CFD10 /* Build configuration list for PBXNativeTarget "BudLabsHackathon" */;
+			buildPhases = (
+				E1FF84681BB64A4F004CFD10 /* Sources */,
+				E1FF84691BB64A4F004CFD10 /* Frameworks */,
+				E1FF846A1BB64A4F004CFD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudLabsHackathon;
+			productName = BudLabsHackathon;
+			productReference = E1FF846C1BB64A4F004CFD10 /* BudLabsHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1FF84841BB64A4F004CFD10 /* BudLabsHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FF849C1BB64A4F004CFD10 /* Build configuration list for PBXNativeTarget "BudLabsHackathonTests" */;
+			buildPhases = (
+				E1FF84811BB64A4F004CFD10 /* Sources */,
+				E1FF84821BB64A4F004CFD10 /* Frameworks */,
+				E1FF84831BB64A4F004CFD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FF84871BB64A4F004CFD10 /* PBXTargetDependency */,
+			);
+			name = BudLabsHackathonTests;
+			productName = BudLabsHackathonTests;
+			productReference = E1FF84851BB64A4F004CFD10 /* BudLabsHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1FF848F1BB64A4F004CFD10 /* BudLabsHackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FF849F1BB64A4F004CFD10 /* Build configuration list for PBXNativeTarget "BudLabsHackathonUITests" */;
+			buildPhases = (
+				E1FF848C1BB64A4F004CFD10 /* Sources */,
+				E1FF848D1BB64A4F004CFD10 /* Frameworks */,
+				E1FF848E1BB64A4F004CFD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FF84921BB64A4F004CFD10 /* PBXTargetDependency */,
+			);
+			name = BudLabsHackathonUITests;
+			productName = BudLabsHackathonUITests;
+			productReference = E1FF84901BB64A4F004CFD10 /* BudLabsHackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FF84641BB64A4F004CFD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Saksham Saini";
+				TargetAttributes = {
+					E1FF846B1BB64A4F004CFD10 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E1FF84841BB64A4F004CFD10 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E1FF846B1BB64A4F004CFD10;
+					};
+					E1FF848F1BB64A4F004CFD10 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E1FF846B1BB64A4F004CFD10;
+					};
+				};
+			};
+			buildConfigurationList = E1FF84671BB64A4F004CFD10 /* Build configuration list for PBXProject "BudLabsHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FF84631BB64A4F004CFD10;
+			productRefGroup = E1FF846D1BB64A4F004CFD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FF846B1BB64A4F004CFD10 /* BudLabsHackathon */,
+				E1FF84841BB64A4F004CFD10 /* BudLabsHackathonTests */,
+				E1FF848F1BB64A4F004CFD10 /* BudLabsHackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FF846A1BB64A4F004CFD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF847F1BB64A4F004CFD10 /* LaunchScreen.storyboard in Resources */,
+				E1FF847C1BB64A4F004CFD10 /* Assets.xcassets in Resources */,
+				E1FF847A1BB64A4F004CFD10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF84831BB64A4F004CFD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF848E1BB64A4F004CFD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FF84681BB64A4F004CFD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF84771BB64A4F004CFD10 /* ViewController.m in Sources */,
+				E1FF84741BB64A4F004CFD10 /* AppDelegate.m in Sources */,
+				E1FF84711BB64A4F004CFD10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF84811BB64A4F004CFD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF848A1BB64A4F004CFD10 /* BudLabsHackathonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF848C1BB64A4F004CFD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF84951BB64A4F004CFD10 /* BudLabsHackathonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1FF84871BB64A4F004CFD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FF846B1BB64A4F004CFD10 /* BudLabsHackathon */;
+			targetProxy = E1FF84861BB64A4F004CFD10 /* PBXContainerItemProxy */;
+		};
+		E1FF84921BB64A4F004CFD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FF846B1BB64A4F004CFD10 /* BudLabsHackathon */;
+			targetProxy = E1FF84911BB64A4F004CFD10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1FF84781BB64A4F004CFD10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FF84791BB64A4F004CFD10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FF847D1BB64A4F004CFD10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FF847E1BB64A4F004CFD10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FF84971BB64A4F004CFD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1FF84981BB64A4F004CFD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FF849A1BB64A4F004CFD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BudLabsHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saksham.BudLabsHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1FF849B1BB64A4F004CFD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BudLabsHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saksham.BudLabsHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1FF849D1BB64A4F004CFD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BudLabsHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saksham.BudLabsHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudLabsHackathon.app/BudLabsHackathon";
+			};
+			name = Debug;
+		};
+		E1FF849E1BB64A4F004CFD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BudLabsHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saksham.BudLabsHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudLabsHackathon.app/BudLabsHackathon";
+			};
+			name = Release;
+		};
+		E1FF84A01BB64A4F004CFD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BudLabsHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saksham.BudLabsHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BudLabsHackathon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E1FF84A11BB64A4F004CFD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BudLabsHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saksham.BudLabsHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BudLabsHackathon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FF84671BB64A4F004CFD10 /* Build configuration list for PBXProject "BudLabsHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FF84971BB64A4F004CFD10 /* Debug */,
+				E1FF84981BB64A4F004CFD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FF84991BB64A4F004CFD10 /* Build configuration list for PBXNativeTarget "BudLabsHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FF849A1BB64A4F004CFD10 /* Debug */,
+				E1FF849B1BB64A4F004CFD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1FF849C1BB64A4F004CFD10 /* Build configuration list for PBXNativeTarget "BudLabsHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FF849D1BB64A4F004CFD10 /* Debug */,
+				E1FF849E1BB64A4F004CFD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1FF849F1BB64A4F004CFD10 /* Build configuration list for PBXNativeTarget "BudLabsHackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FF84A01BB64A4F004CFD10 /* Debug */,
+				E1FF84A11BB64A4F004CFD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FF84641BB64A4F004CFD10 /* Project object */;
+}
